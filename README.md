@@ -10,41 +10,41 @@
 
 **Frontend:**
 - Flutter (iOS, Android, Web, Desktop)
-- React / Next.js
+- React / Next.js -- si es solo web esto para optimizar seo friendly y llm friendly y generar trafico.
 
 **Backend:**
-- Firebase (Auth, Firestore, Functions, Storage)
-- Supabase (PostgreSQL, Auth, Realtime)
-- Node.js / Express.js
+- Firebase (Auth, Firestore, Functions, Storage) -- con enfasis en las festure free para sacar maximo provecho
+- Supabase (PostgreSQL, Auth, Realtime) -- de primero para mi es la mejor forma de escalar cualquier proyecto con tarifa plana
+- Node.js / Express.js -- puedo ser para simplicarlo por que seria solo para las edge functions me parece
 
 **Tools & Platforms:**
-- Claude Code + MCPs (context7, firebase, github, supabase)
-- Gemini 2.5 Pro
-- Antigravity IDE
-- GitHub Pro
-- Cloudflare
+- Claude Code + MCPs 
+- Antigravity IDE + gemini cli
+- GitHub Pro: para sacarle el jugo a git y automatizar cositas
+- Cloudflare -- para web y seguridad en la nuebe
+
+mcp favoritos
+(context7, firebase, github, supabase)
+
 
 ---
 
 ## 🚀 Current Projects
 
-### FlowUI
+### Flowui
 Compliance as a Service platform built with Flutter + Firebase + Supabase.
 📱 iOS • 🤖 Android • 🌐 Web • 🖥 Desktop
 🔗 [flowui.app](https://flowui.app)
 
 ### dev-ecosystem
-Personal development environment setup & runbook for Samsung Galaxy Book 3 Pro.
-- WSL2 + Ubuntu
-- Node.js, Flutter, Firebase CLIs
-- Claude Code with 8+ active MCPs
-- Fully documented & reproducible
+
+plantilla para que tu mac, windows o linux tengan memoria
 
 ---
 
 ## 📊 Stats
 
-- 🇪🇸 Based in Spanish-speaking timezone
+- 🇪🇸 Based in Spanish-speaking timezone -- ubicado en argentina
 - 💻 Full-time: FlowUI development
 - 🎯 Focus: Building in public, side projects, digital identity consistency
 - 📚 Lifelong learner: Always exploring new frameworks & patterns
