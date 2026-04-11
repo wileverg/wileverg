@@ -1,28 +1,27 @@
 # Wilever Gómez (@wileverg)
 
-🚀 **Multiplataform Developer** | Flutter • Firebase • Supabase
+🚀 **Multiplatform Developer** | Flutter • Supabase • Firebase
 💼 **Founder:** [FlowUI](https://flowui.app) — Compliance as a Service
-🌐 Building in public | Open source advocate
+🌐 Building in public | Open source advocate | 🇦🇷 Argentina
 
 ---
 
 ## 🛠 Tech Stack
 
-**Frontend:**
+**Frontend & Mobile:**
 - Flutter (iOS, Android, Web, Desktop)
-- React / Next.js
+- React / Next.js — SEO & LLM-friendly web
 
 **Backend:**
-- Firebase (Auth, Firestore, Functions, Storage)
-- Supabase (PostgreSQL, Auth, Realtime)
-- Node.js / Express.js
+- Supabase (PostgreSQL, Auth, Realtime) — flat-rate, scales with any project
+- Firebase (Auth, Firestore, Functions, Storage) — maximizing the free tier
+- Node.js — edge functions
 
 **Tools & Platforms:**
 - Claude Code + MCPs (context7, firebase, github, supabase)
-- Gemini 2.5 Pro
-- Antigravity IDE
-- GitHub Pro
-- Cloudflare
+- Antigravity IDE + Gemini CLI
+- GitHub Pro — git automation & workflows
+- Cloudflare — web performance & cloud security
 
 ---
 
@@ -34,17 +33,14 @@ Compliance as a Service platform built with Flutter + Firebase + Supabase.
 🔗 [flowui.app](https://flowui.app)
 
 ### dev-ecosystem
-Personal development environment setup & runbook for Samsung Galaxy Book 3 Pro.
-- WSL2 + Ubuntu
-- Node.js, Flutter, Firebase CLIs
-- Claude Code with 8+ active MCPs
-- Fully documented & reproducible
+Cross-platform dev environment template — gives your Mac, Windows or Linux persistent memory and a reproducible setup from scratch.
+🔗 [github.com/wileverg/dev-ecosystem](https://github.com/wileverg/dev-ecosystem)
 
 ---
 
 ## 📊 Stats
 
-- 🇪🇸 Based in Spanish-speaking timezone
+- 🇦🇷 Based in Argentina
 - 💻 Full-time: FlowUI development
 - 🎯 Focus: Building in public, side projects, digital identity consistency
 - 📚 Lifelong learner: Always exploring new frameworks & patterns
@@ -63,10 +59,9 @@ Personal development environment setup & runbook for Samsung Galaxy Book 3 Pro.
 
 ## 🎯 What I'm Currently Working On
 
-- **Dev Environment Setup** — Maximizing Claude + Antigravity on Windows
 - **FlowUI Platform** — Building compliance tools for enterprises
+- **dev-ecosystem** — Cross-platform dev environment template
 - **Build in Public** — Documenting journey & learnings in real-time
-- **Side Projects** — Experimenting with emerging tech (AI, Web3, etc.)
 
 ---
 
