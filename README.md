@@ -31,49 +31,38 @@ Inspired by open developer communities, I document the journey in real time.
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=flutter,react,nextjs,ts,tailwind" />
+<img src="https://skillicons.dev/icons?i=flutter,html,css" />
+
+> Flutter for cross-platform apps · HTML + CSS for static webs & SEO/LLM-friendly landings
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=firebase,nodejs,express,postgres" />
+<img src="https://skillicons.dev/icons?i=firebase,supabase,postgres,nodejs" />
 
-> Also using: Supabase (PostgreSQL, Auth, Realtime) — my top pick for flat-rate scaling.
+> Firebase (Auth · Firestore · Storage) · Supabase (PostgreSQL · Auth · Realtime) · Node.js / Express · Resend (email)
 
 **Tools & Platforms**
 
-<img src="https://skillicons.dev/icons?i=git,github,docker,cloudflare,vscode" />
+<img src="https://skillicons.dev/icons?i=git,github,cloudflare" />
 
-> Also: Claude Code + MCPs (context7, firebase, github, supabase) · Antigravity IDE + Gemini CLI
+> Claude Code + MCPs · Antigravity IDE
 
 ## 🏛 Architecture
 
-```mermaid
-graph TD
-    classDef frontend fill:#3b82f6,stroke:#1d4ed8,stroke-width:2px,color:#fff
-    classDef web fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-    classDef edge fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#fff
-    classDef backend fill:#8b5cf6,stroke:#6d28d9,stroke-width:2px,color:#fff
-
-    subgraph Clients ["📱 Clients"]
-        F[Flutter<br/>iOS/Android/Desktop/Web]:::frontend
-        N[Next.js / React<br/>SEO & LLM Friendly]:::web
-    end
-
-    CF((Cloudflare<br/>Security & CDN)):::edge
-
-    subgraph BackendServices ["⚙️ Backend & Services"]
-        S[(Supabase<br/>PostgreSQL/Realtime)]:::backend
-        FB[(Firebase<br/>Auth/Firestore/Storage)]:::backend
-        E[Node.js / Express<br/>Edge Functions]:::backend
-    end
-
-    F --> CF
-    N --> CF
-    CF --> S
-    CF --> FB
-    CF --> E
-    E --> S
-    E --> FB
+```
+📱 Clients
+  ├── Flutter ............. iOS · Android · Desktop · Web
+  └── HTML + CSS .......... Static Webs · SEO & LLM-Friendly Landings
+                │
+                ▼
+        ☁️  Cloudflare  (Security & CDN)
+                │
+                ▼
+⚙️  Backend & Services
+  ├── Firebase ............ Auth · Firestore · Storage
+  ├── Supabase ............ PostgreSQL · Auth · Realtime
+  ├── Node.js / Express ... Edge Functions
+  └── Resend .............. Transactional Email
 ```
 
 ## 🚀 Current Projects
@@ -119,49 +108,38 @@ Inspirado en comunidades de desarrolladores abiertas, documento el viaje en tiem
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=flutter,react,nextjs,ts,tailwind" />
+<img src="https://skillicons.dev/icons?i=flutter,html,css" />
+
+> Flutter para apps multiplataforma · HTML + CSS para webs estáticas y landings SEO/LLM-friendly
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=firebase,nodejs,express,postgres" />
+<img src="https://skillicons.dev/icons?i=firebase,supabase,postgres,nodejs" />
 
-> También: Supabase (PostgreSQL, Auth, Realtime) — mi primera opción para escalar con tarifa plana.
+> Firebase (Auth · Firestore · Storage) · Supabase (PostgreSQL · Auth · Realtime) · Node.js / Express · Resend (email)
 
 **Herramientas y Plataformas**
 
-<img src="https://skillicons.dev/icons?i=git,github,docker,cloudflare,vscode" />
+<img src="https://skillicons.dev/icons?i=git,github,cloudflare" />
 
-> También: Claude Code + MCPs (context7, firebase, github, supabase) · Antigravity IDE + Gemini CLI
+> Claude Code + MCPs · Antigravity IDE
 
 ## 🏛 Arquitectura
 
-```mermaid
-graph TD
-    classDef frontend fill:#3b82f6,stroke:#1d4ed8,stroke-width:2px,color:#fff
-    classDef web fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-    classDef edge fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#fff
-    classDef backend fill:#8b5cf6,stroke:#6d28d9,stroke-width:2px,color:#fff
-
-    subgraph Clients ["📱 Clientes"]
-        F[Flutter<br/>iOS/Android/Desktop/Web]:::frontend
-        N[Next.js / React<br/>SEO & LLM Friendly]:::web
-    end
-
-    CF((Cloudflare<br/>Security & CDN)):::edge
-
-    subgraph BackendServices ["⚙️ Servicios"]
-        S[(Supabase<br/>PostgreSQL/Realtime)]:::backend
-        FB[(Firebase<br/>Auth/Firestore/Storage)]:::backend
-        E[Node.js / Express<br/>Edge Functions]:::backend
-    end
-
-    F --> CF
-    N --> CF
-    CF --> S
-    CF --> FB
-    CF --> E
-    E --> S
-    E --> FB
+```
+📱 Clientes
+  ├── Flutter ............. iOS · Android · Desktop · Web
+  └── HTML + CSS .......... Webs Estáticas · Landings SEO & LLM-Friendly
+                │
+                ▼
+        ☁️  Cloudflare  (Seguridad & CDN)
+                │
+                ▼
+⚙️  Backend & Servicios
+  ├── Firebase ............ Auth · Firestore · Storage
+  ├── Supabase ............ PostgreSQL · Auth · Realtime
+  ├── Node.js / Express ... Edge Functions
+  └── Resend .............. Email transaccional
 ```
 
 ## 🚀 Proyectos Actuales
