@@ -1,35 +1,49 @@
-# Wilever Gómez (@wileverg)
+<div align="center">
 
-<details>
-<summary>🇬🇧 Click here for English version</summary>
+# 👋 Hi, I'm Wilever Gómez (@wileverg)
+### Multiplatform Developer · Founder of FlowUI
 
-🚀 **Multiplatform Developer** • Flutter • Firebase • Supabase
-💼 **Founder:** [FlowUI](https://flowui.app) — Compliance as a Service
-🌐 **Building in public** • Open source advocate
+</div>
 
 ---
+
+<details>
+<summary>🇬🇧 English</summary>
+
+## About
+
+- 🚀 **Multiplatform Developer** — Flutter · Firebase · Supabase
+- 💼 **Founder** of [FlowUI](https://flowui.app) — Compliance as a Service
+- 🌐 **Building in public** · Open source advocate
+- 📍 Based in Argentina (Spanish-speaking timezone)
+
+## 🌱 Vision
+
+My work revolves around:
+
+- Building scalable, cross-platform products for real-world needs
+- Sharing knowledge openly through public building
+- Exploring emerging tech — AI, Web3, and beyond
+
+Inspired by open developer communities, I document the journey in real time.
 
 ## 🛠 Tech Stack
 
-**Frontend:**
+**Frontend**
 
-- 📱 Flutter (iOS, Android, Web, Desktop)
-- ⚛️ React / Next.js — *For web to optimize SEO, LLM-friendly content, and generate traffic.*
+<img src="https://skillicons.dev/icons?i=flutter,react,nextjs,ts,tailwind" />
 
-**Backend:**
+**Backend**
 
-- 🔥 Firebase (Auth, Firestore, Functions, Storage) — *Focusing on free features to maximize value.*
-- ⚡ Supabase (PostgreSQL, Auth, Realtime) — *My top choice for scaling any project with a flat rate.*
-- 🟩 Node.js / Express.js — *To simplify, mainly for edge functions.*
+<img src="https://skillicons.dev/icons?i=firebase,nodejs,express,postgres" />
 
-**Tools & Platforms:**
+> Also using: Supabase (PostgreSQL, Auth, Realtime) — my top pick for flat-rate scaling.
 
-- 🤖 Claude Code + MCPs (context7, firebase, github, supabase)
-- 🌌 Antigravity IDE + Gemini CLI
-- 🐙 GitHub Pro — *Extracting the most out of git and automating tasks.*
-- ☁️ Cloudflare — *For web and cloud security.*
+**Tools & Platforms**
 
----
+<img src="https://skillicons.dev/icons?i=git,github,docker,cloudflare,vscode" />
+
+> Also: Claude Code + MCPs (context7, firebase, github, supabase) · Antigravity IDE + Gemini CLI
 
 ## 🏛 Architecture
 
@@ -62,82 +76,62 @@ graph TD
     E --> FB
 ```
 
----
-
 ## 🚀 Current Projects
 
-### FlowUI
-
-Compliance as a Service platform built with Flutter + Firebase + Supabase.
-📱 iOS • 🤖 Android • 🌐 Web • 🖥 Desktop
+**FlowUI** — Compliance as a Service platform built with Flutter + Firebase + Supabase.  
+📱 iOS · 🤖 Android · 🌐 Web · 🖥 Desktop  
 🔗 [flowui.app](https://flowui.app)
 
-### dev-ecosystem
+**dev-ecosystem** — Template to give your Mac, Windows, or Linux memory.
 
-Template to give your Mac, Windows, or Linux memory.
-
----
-
-## 📊 Stats
-
-- 🇪🇸 **Location:** Based in Spanish-speaking timezone (Argentina)
-- 💻 **Full-time:** FlowUI development
-- 🎯 **Focus:** Building in public, side projects, digital identity consistency
-- 📚 **Lifelong learner:** Always exploring new frameworks & patterns
-
----
-
-## 🎯 What I'm Currently Working On
+## 🎯 What I'm Working On
 
 - ⚙️ **Dev Environment Setup** — Maximizing Claude + Antigravity on Windows
 - 🏢 **FlowUI Platform** — Building compliance tools for enterprises
-- 📢 **Construir en Público** — Documentando el viaje y aprendizajes en tiempo real
+- 📢 **Building in Public** — Documenting the journey and learnings in real time
 - 🔬 **Side Projects** — Experimenting with emerging tech (AI, Web3, etc.)
-
----
-
-## 📝 Latest Blog Posts
-
-*Building in public coming soon...*
-
----
-
-## 📝 Blog Summary / Bio
-
-I am a Multiplatform Developer specializing in Flutter, Firebase, and Supabase, and the founder of FlowUI, a "Compliance as a Service" platform. I am a strong advocate for building in public and open-source ecosystems, currently based in Argentina. My architecture prioritizes scalability, cross-platform reach, and SEO optimization.
 
 </details>
 
-<details open>
-<summary>🇪🇸 Ver versión en Español</summary>
-
-🚀 **Desarrollador Multiplataforma** • Flutter • Firebase • Supabase
-💼 **Founder:** [FlowUI](https://flowui.app) — Compliance as a Service
-🌐 **Construyendo en público** • Promotor del código abierto
-
 ---
+
+<details open>
+<summary>🇪🇸 Español</summary>
+
+## Sobre mí
+
+- 🚀 **Desarrollador Multiplataforma** — Flutter · Firebase · Supabase
+- 💼 **Founder** de [FlowUI](https://flowui.app) — Compliance as a Service
+- 🌐 **Construyendo en público** · Promotor del código abierto
+- 📍 Ubicado en Argentina
+
+## 🌱 Visión
+
+Mi trabajo gira en torno a:
+
+- Crear productos escalables y multiplataforma para necesidades reales
+- Compartir conocimiento abiertamente construyendo en público
+- Explorar tecnologías emergentes — IA, Web3 y más
+
+Inspirado en comunidades de desarrolladores abiertas, documento el viaje en tiempo real.
 
 ## 🛠 Tecnologías
 
-**Frontend:**
+**Frontend**
 
-- 📱 Flutter (iOS, Android, Web, Desktop)
-- ⚛️ React / Next.js — *Si es solo web, para optimizar el SEO, compatibilidad con LLMs y generar tráfico.*
+<img src="https://skillicons.dev/icons?i=flutter,react,nextjs,ts,tailwind" />
 
-**Backend:**
+**Backend**
 
-- 🔥 Firebase (Auth, Firestore, Functions, Storage) — *Con énfasis en las características gratuitas para sacar el máximo provecho.*
-- ⚡ Supabase (PostgreSQL, Auth, Realtime) — *Mi primera opción para escalar cualquier proyecto con tarifa plana.*
-- 🟩 Node.js / Express.js — *Para simplificar, principalmente enfocado en edge functions.*
+<img src="https://skillicons.dev/icons?i=firebase,nodejs,express,postgres" />
 
-**Herramientas y Plataformas:**
+> También: Supabase (PostgreSQL, Auth, Realtime) — mi primera opción para escalar con tarifa plana.
 
-- 🤖 Claude Code + MCPs (context7, firebase, github, supabase)
-- 🌌 Antigravity IDE + Gemini CLI
-- 🐙 GitHub Pro — *Para sacarle el jugo a git y automatizar cositas.*
-- ☁️ Cloudflare — *Para web y seguridad en la nube.*
+**Herramientas y Plataformas**
 
----
+<img src="https://skillicons.dev/icons?i=git,github,docker,cloudflare,vscode" />
+
+> También: Claude Code + MCPs (context7, firebase, github, supabase) · Antigravity IDE + Gemini CLI
 
 ## 🏛 Arquitectura
 
@@ -170,61 +164,46 @@ graph TD
     E --> FB
 ```
 
----
-
 ## 🚀 Proyectos Actuales
 
-### FlowUI (ES)
-
-Plataforma de "Compliance as a Service" construida con Flutter + Firebase + Supabase.
-📱 iOS • 🤖 Android • 🌐 Web • 🖥 Desktop
+**FlowUI** — Plataforma de "Compliance as a Service" construida con Flutter + Firebase + Supabase.  
+📱 iOS · 🤖 Android · 🌐 Web · 🖥 Desktop  
 🔗 [flowui.app](https://flowui.app)
 
-### dev-ecosystem (ES)
-
-Plantilla para que tu Mac, Windows o Linux tengan memoria.
-
----
-
-## 📊 Estadísticas
-
-- 🇪🇸 **Ubicación:** Ubicado en Argentina
-- 💻 **Full-time:** Desarrollo de FlowUI
-- 🎯 **Enfoque:** Construir en público, proyectos paralelos, consistencia de identidad digital
-- 📚 **Aprendizaje continuo:** Siempre explorando nuevos frameworks y patrones
-
----
+**dev-ecosystem** — Plantilla para que tu Mac, Windows o Linux tengan memoria.
 
 ## 🎯 En Qué Estoy Trabajando
 
 - ⚙️ **Configuración del Entorno** — Maximizando Claude + Antigravity en Windows
 - 🏢 **Plataforma FlowUI** — Construyendo herramientas de compliance para empresas
 - 📢 **Construir en Público** — Documentando el viaje y aprendizajes en tiempo real
-- 🔬 **Proyectos Paralelos** — Experimentando con tecnologías emergentes
-
----
-
-## 📝 Últimos Artículos
-
-*Construyendo en público próximamente...*
-
----
-
-## 📝 Resumen para el Blog
-
-Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supabase, y el fundador de FlowUI, una plataforma de "Compliance as a Service". Fomento activamente la construcción en público (Build in Public) y el código abierto, y actualmente resido en Argentina. Mi arquitectura prioriza la escalabilidad, el alcance multiplataforma y la optimización SEO.
+- 🔬 **Proyectos Paralelos** — Experimentando con tecnologías emergentes (IA, Web3, etc.)
 
 </details>
 
 ---
 
-## 🔗 Enlaces / Links
+## 📊 GitHub Stats
 
-- 💼 [FlowUI](https://flowui.app)
-- 📧 [wilevergomez@gmail.com](mailto:wilevergomez@gmail.com)
-- 🐦 [@wileverg](https://twitter.com/wileverg) (Twitter/X)
-- 🎨 [@wileverg](https://instagram.com/wileverg) (Instagram)
-- 💻 [GitHub Profile](https://github.com/wileverg)
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=wileverg&theme=radical&hide_border=true)
+
+</div>
+
+---
+
+## 🔗 Connect / Conectar
+
+<div align="center">
+
+[![FlowUI](https://img.shields.io/badge/FlowUI-000000?style=for-the-badge&logo=bookstack&logoColor=white)](https://flowui.app)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wilevergomez@gmail.com)
+[![Twitter/X](https://img.shields.io/badge/Twitter%2FX-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/wileverg)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/wileverg)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wileverg)
+
+</div>
 
 ---
 
