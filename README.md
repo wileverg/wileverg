@@ -1,3 +1,4 @@
+<!--
 ---
 title: Wilever Gómez | Product Developer & Founder
 description: Personal profile of Wilever Gómez, Senior Product Developer expert in Flutter, Firebase, Supabase and founder of FlowUI.
@@ -22,6 +23,7 @@ image: assets/lifestyle_card.png
   ]
 }
 </script>
+-->
 
 # Wilever Gómez — Product Developer & Founder
 
