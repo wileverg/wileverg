@@ -1,0 +1,40 @@
+name: Profile Master Automation
+
+on:
+  schedule:
+    # Runs every 12 hours
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-readme:
+    name: Update Profile Content
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # 1. Update Blog Posts (Example using gautamkrishnar/blog-post-workflow)
+      - name: Pull Latest Blog Posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://medium.com/feed/@YOUR_USERNAME" # User must update this
+          max_post_count: 5
+
+      # 2. Update WakaTime Stats (Example using athul/waka-readme)
+      # REQUIRED SECRET: WAKATIME_API_KEY
+      - name: Update WakaTime Stats
+        uses: athul/waka-readme@master
+        if: env.WAKATIME_API_KEY != ''
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+      # 3. Commit Changes
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Auto-update Profile Content"
+          git push

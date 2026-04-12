@@ -1,91 +1,157 @@
-# Wilever Gómez (@wileverg)
-
-<details>
-<summary>🇬🇧 Click here for English version</summary>
-
-🚀 **Multiplatform Developer** • Flutter • Firebase • Supabase
-💼 **Founder:** [FlowUI](https://flowui.app) — Compliance as a Service
-🌐 **Building in public** • Open source advocate
-
 ---
+title: Wilever Gómez | Product Developer & Founder
+description: Personal profile of Wilever Gómez, Senior Product Developer expert in Flutter, Firebase, Supabase and founder of FlowUI.
+keywords: Product Developer, Flutter, Supabase, Firebase, Compliance as a Service, FlowUI, Wilever Gómez, Developer Argentina
+image: assets/lifestyle_card.png
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wilever Gómez",
+  "url": "https://github.com/wileverg",
+  "image": "https://raw.githubusercontent.com/wileverg/wileverg/main/assets/lifestyle_card.png",
+  "jobTitle": "Product Developer | Senior Flutter & Supabase Architect",
+  "alumniOf": "Universidad de Oriente",
+  "knowsAbout": ["Product Development", "Flutter", "Supabase", "Firebase", "PostgreSQL", "Software Architecture", "Health Tech", "Compliance"],
+  "sameAs": [
+    "https://www.linkedin.com/in/wileverg/",
+    "https://twitter.com/wileverg",
+    "https://github.com/wileverg"
+  ]
+}
+</script>
+
+# Wilever Gómez — Product Developer & Founder
+
+<p align="right">
+  <a href="README-es.md"><strong>🇪🇸 Ver versión en Español</strong></a>
+</p>
+
+<p align="center">
+  <img src="assets/lifestyle_card.png" alt="Wilever Gómez - Product Developer" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/wileverg"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:wilevergomez@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://twitter.com/wileverg"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
+</p>
+
+<p align="center">
+  <img src="assets/profile/portrait.png" alt="Wilever Gómez - Portrait" width="150px" style="border-radius: 50%;">
+</p>
+
+- 🚀 **Senior Technical Leader & Health Tech Architect**
+- 🏆 **6+ Years experience** transforming healthcare with Flutter & Supabase.
+- 📈 **1M+ Active Users**: Led scaling for massive health platforms.
+- 🏥 **90% Digitalization**: Spearheaded pandemic response for 700K+ members.
+- 🌐 **Building in public** • Founder of FlowUI *(Coming Soon)*
+
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
 
 ## 🛠 Tech Stack
 
-**Frontend:**
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,firebase,supabase,nextjs,react,nodejs,express,cloudflare,git,github,vscode,powershell&theme=dark" alt="My Tech Stack">
+</p>
 
-- 📱 Flutter (iOS, Android, Web, Desktop)
-- ⚛️ React / Next.js — *For web to optimize SEO, LLM-friendly content, and generate traffic.*
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
 
-**Backend:**
+## 📂 Repository Structure
 
-- 🔥 Firebase (Auth, Firestore, Functions, Storage) — *Focusing on free features to maximize value.*
-- ⚡ Supabase (PostgreSQL, Auth, Realtime) — *My top choice for scaling any project with a flat rate.*
-- 🟩 Node.js / Express.js — *To simplify, mainly for edge functions.*
-
-**Tools & Platforms:**
-
-- 🤖 Claude Code + MCPs (context7, firebase, github, supabase)
-- 🌌 Antigravity IDE + Gemini CLI
-- 🐙 GitHub Pro — *Extracting the most out of git and automating tasks.*
-- ☁️ Cloudflare — *For web and cloud security.*
-
----
-
-## 🏛 Architecture
-
-```mermaid
-graph TD
-    classDef frontend fill:#3b82f6,stroke:#1d4ed8,stroke-width:2px,color:#fff
-    classDef web fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-    classDef edge fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#fff
-    classDef backend fill:#8b5cf6,stroke:#6d28d9,stroke-width:2px,color:#fff
-
-    subgraph Clients ["📱 Clients"]
-        F[Flutter<br/>iOS/Android/Desktop/Web]:::frontend
-        N[Next.js / React<br/>SEO & LLM Friendly]:::web
-    end
-
-    CF((Cloudflare<br/>Security & CDN)):::edge
-
-    subgraph BackendServices ["⚙️ Backend & Services"]
-        S[(Supabase<br/>PostgreSQL/Realtime)]:::backend
-        FB[(Firebase<br/>Auth/Firestore/Storage)]:::backend
-        E[Node.js / Express<br/>Edge Functions]:::backend
-    end
-
-    F --> CF
-    N --> CF
-    CF --> S
-    CF --> FB
-    CF --> E
-    E --> S
-    E --> FB
+```text
+wileverg/
+├── .github/             # Governance & Automation
+│   ├── scripts/         # Identity Benchmark Scripts
+│   └── workflows/       # Profile & Stats Workflows
+├── assets/              # Premium Visual Identity Assets
+├── AGENTS.md            # Role Definitions & Governance
+├── BENCHMARK.md         # Identity Health Reports
+├── GEMINI.md            # AI Style & Branding Context
+├── llms.txt             # AI Discovery & Token-Opt Summary
+├── README.md            # Modern Entry Point (EN)
+└── README-es.md         # Modern Entry Point (ES)
 ```
 
----
+## 🏛 Technical Architecture
 
-## 🚀 Current Projects
+```text
+[ Clients ] --------> [ Edge Service ] --------> [ Backend Stack ]
+ Flutter App           Cloudflare CDN             Supabase / PostreSQL
+ Next.js Web           Security Layer             Firebase / Firestore
+```
 
-### FlowUI
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
 
-Compliance as a Service platform built with Flutter + Firebase + Supabase.
-📱 iOS • 🤖 Android • 🌐 Web • 🖥 Desktop
-🔗 [flowui.app](https://flowui.app)
+### 💼 Professional Journey
 
-### dev-ecosystem
+- **Health Tech Lead** | *Health Tech Business* (Dec 2024 - Present)  
+  Leading technical transformation and modular architecture for 1M+ users.
+- **Senior Web/App Developer** | *Freelance* (Oct 2023 - Dec 2024)  
+  High-impact migrations and offline-first solutions for global startups.
+- **Technical Innovation Coordinator** | *Unión Personal* (June 2020 - Sep 2023)  
+  Digitalized 90% of services (700K members) during COVID.
+- **Full Stack / Backend roles** | *Karanta & UP* (2017 - 2020)
 
-Template to give your Mac, Windows, or Linux memory.
+### 🎓 Education
 
----
+- **Electrical Engineer (Cum Laude)** | *Universidad de Oriente (VE)*
 
-## 📊 Stats
+### 🚀 Featured Projects
+
+> [!NOTE] 
+> Most enterprise projects I've architected are under NDA. Architecture walkthroughs are available upon request.
+
+#### 🏥 US Wellness App Migration (Under NDA)
+Complete frontend and backend migration from BuildFire to a custom Flutter + Supabase architecture for the US market.
+- 📉 **Impact:** Migrated **50,000+ active users** with **0 downtime** and **0% churn**.
+- ⚡ **Performance:** Increased app performance by **60%** while cutting operational costs by **40%**.
+- 🛠️ **Tech:** Flutter, Supabase (PostgreSQL), Offline-first architecture, Stripe, Firebase.
+
+#### 🌾 CRM-AGRO (Under NDA)
+Designed and developed an offline-first CRM for agricultural sales in Argentina, enabling real-time productivity in areas with zero internet connectivity.
+
+#### 🏢 FlowUI (Coming Soon)
+"Compliance as a Service" platform built with Flutter + Firebase + Supabase.
+- 📉 **Goal:** Reduce corporate audit times by up to **40%**.
+- 🔗 [flowui.app](https://flowui.app)
+
+#### 💻 dev-ecosystem (Coming Soon)
+Template that provides continuous memory state environments across Mac, Windows, and Linux setups.
+
+## 📊 Performance & Impact
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=wileverg&show_icons=true&theme=default&title_color=2f4f4f&icon_color=a7d08e&text_color=4b5320&bg_color=f5f5dc&border_color=a7d08e" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wileverg&layout=compact&theme=default&title_color=2f4f4f&icon_color=a7d08e&text_color=4b5320&bg_color=f5f5dc&border_color=a7d08e" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=wileverg&theme=flat&column=7&margin-w=15&background=f5f5dc" alt="GitHub Trophies" />
+</p>
+
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
+
+## 📈 Stats
 
 - 🇪🇸 **Location:** Based in Spanish-speaking timezone (Argentina)
 - 💻 **Full-time:** FlowUI development
 - 🎯 **Focus:** Building in public, side projects, digital identity consistency
 - 📚 **Lifelong learner:** Always exploring new frameworks & patterns
 
----
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
 
 ## 🎯 What I'm Currently Working On
 
@@ -94,129 +160,31 @@ Template to give your Mac, Windows, or Linux memory.
 - 📢 **Construir en Público** — Documentando el viaje y aprendizajes en tiempo real
 - 🔬 **Side Projects** — Experimenting with emerging tech (AI, Web3, etc.)
 
----
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
 
 ## 📝 Latest Blog Posts
 
 *Building in public coming soon...*
 
----
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/profile/lifestyle.png" alt="Wilever Gómez - Build in Public Lifestyle" width="80%">
+  <br>
+  <i>"Thinking about code, scaling in nature."</i>
+</p>
 
 ## 📝 Blog Summary / Bio
 
-I am a Multiplatform Developer specializing in Flutter, Firebase, and Supabase, and the founder of FlowUI, a "Compliance as a Service" platform. I am a strong advocate for building in public and open-source ecosystems, currently based in Argentina. My architecture prioritizes scalability, cross-platform reach, and SEO optimization.
+I am a Multiplatform Developer specializing in Flutter, Firebase, and Supabase, and the founder of FlowUI. My mission is to democratize compliance for startups by building high-performance, cross-platform tools. Currently based in Argentina, I prioritize scalability and digital transparency.
 
-</details>
-
-<details open>
-<summary>🇪🇸 Ver versión en Español</summary>
-
-🚀 **Desarrollador Multiplataforma** • Flutter • Firebase • Supabase
-💼 **Founder:** [FlowUI](https://flowui.app) — Compliance as a Service
-🌐 **Construyendo en público** • Promotor del código abierto
-
----
-
-## 🛠 Tecnologías
-
-**Frontend:**
-
-- 📱 Flutter (iOS, Android, Web, Desktop)
-- ⚛️ React / Next.js — *Si es solo web, para optimizar el SEO, compatibilidad con LLMs y generar tráfico.*
-
-**Backend:**
-
-- 🔥 Firebase (Auth, Firestore, Functions, Storage) — *Con énfasis en las características gratuitas para sacar el máximo provecho.*
-- ⚡ Supabase (PostgreSQL, Auth, Realtime) — *Mi primera opción para escalar cualquier proyecto con tarifa plana.*
-- 🟩 Node.js / Express.js — *Para simplificar, principalmente enfocado en edge functions.*
-
-**Herramientas y Plataformas:**
-
-- 🤖 Claude Code + MCPs (context7, firebase, github, supabase)
-- 🌌 Antigravity IDE + Gemini CLI
-- 🐙 GitHub Pro — *Para sacarle el jugo a git y automatizar cositas.*
-- ☁️ Cloudflare — *Para web y seguridad en la nube.*
-
----
-
-## 🏛 Arquitectura
-
-```mermaid
-graph TD
-    classDef frontend fill:#3b82f6,stroke:#1d4ed8,stroke-width:2px,color:#fff
-    classDef web fill:#10b981,stroke:#047857,stroke-width:2px,color:#fff
-    classDef edge fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#fff
-    classDef backend fill:#8b5cf6,stroke:#6d28d9,stroke-width:2px,color:#fff
-
-    subgraph Clients ["📱 Clientes"]
-        F[Flutter<br/>iOS/Android/Desktop/Web]:::frontend
-        N[Next.js / React<br/>SEO & LLM Friendly]:::web
-    end
-
-    CF((Cloudflare<br/>Security & CDN)):::edge
-
-    subgraph BackendServices ["⚙️ Servicios"]
-        S[(Supabase<br/>PostgreSQL/Realtime)]:::backend
-        FB[(Firebase<br/>Auth/Firestore/Storage)]:::backend
-        E[Node.js / Express<br/>Edge Functions]:::backend
-    end
-
-    F --> CF
-    N --> CF
-    CF --> S
-    CF --> FB
-    CF --> E
-    E --> S
-    E --> FB
-```
-
----
-
-## 🚀 Proyectos Actuales
-
-### FlowUI (ES)
-
-Plataforma de "Compliance as a Service" construida con Flutter + Firebase + Supabase.
-📱 iOS • 🤖 Android • 🌐 Web • 🖥 Desktop
-🔗 [flowui.app](https://flowui.app)
-
-### dev-ecosystem (ES)
-
-Plantilla para que tu Mac, Windows o Linux tengan memoria.
-
----
-
-## 📊 Estadísticas
-
-- 🇪🇸 **Ubicación:** Ubicado en Argentina
-- 💻 **Full-time:** Desarrollo de FlowUI
-- 🎯 **Enfoque:** Construir en público, proyectos paralelos, consistencia de identidad digital
-- 📚 **Aprendizaje continuo:** Siempre explorando nuevos frameworks y patrones
-
----
-
-## 🎯 En Qué Estoy Trabajando
-
-- ⚙️ **Configuración del Entorno** — Maximizando Claude + Antigravity en Windows
-- 🏢 **Plataforma FlowUI** — Construyendo herramientas de compliance para empresas
-- 📢 **Construir en Público** — Documentando el viaje y aprendizajes en tiempo real
-- 🔬 **Proyectos Paralelos** — Experimentando con tecnologías emergentes
-
----
-
-## 📝 Últimos Artículos
-
-*Construyendo en público próximamente...*
-
----
-
-## 📝 Resumen para el Blog
-
-Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supabase, y el fundador de FlowUI, una plataforma de "Compliance as a Service". Fomento activamente la construcción en público (Build in Public) y el código abierto, y actualmente resido en Argentina. Mi arquitectura prioriza la escalabilidad, el alcance multiplataforma y la optimización SEO.
-
-</details>
-
----
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
 
 ## 🔗 Enlaces / Links
 
@@ -226,8 +194,25 @@ Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supaba
 - 🎨 [@wileverg](https://instagram.com/wileverg) (Instagram)
 - 💻 [GitHub Profile](https://github.com/wileverg)
 
----
+<p align="center">
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
+
+## 🍴 Fork & Replicate This Profile
+Feel free to fork this repository to build your own "Masterclass" AI-ready GitHub Profile!
+
+1. Create a public repository whose name strictly matches your GitHub username.
+2. Fork or copy the contents of this repo. Explore the `templates/` directory for structure ideas.
+3. Update `llms.txt`, `AGENTS.md`, and `GEMINI.md` to define your own AI context and narrative.
+4. Replace the Schema.org `<script type="application/ld+json">` metadata block with your own data for maximum SEO indexing.
+5. Customize the URLs in the Shields.io badges and stats cards.
 
 <p align="center">
-  <i>Made with ❤️ using Claude Code & Antigravity IDE | Hecho con ❤️ usando Claude Code y Antigravity IDE</i>
+  <img src="assets/organic_separator_optimized.png" width="100%">
+</p>
+
+<p align="center">
+  <i>Made with ❤️ using Claude Code & Antigravity IDE</i><br>
+  <img src="https://komarev.com/ghpvc/?username=wileverg&label=Profile%20Views&color=a7d08e&style=flat" alt="Profile Views" /><br>
+  <a href="BENCHMARK.md">📊 <strong>Identity Health Score: 100/100</strong></a>
 </p>

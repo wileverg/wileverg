@@ -1,5 +1,10 @@
 {
-  "default": true,
-  "MD013": false,
-  "MD033": false
+    "default": true,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD001": true,
+    "no-duplicate-header": true,
+    "no-trailing-spaces": true,
+    "ul-style": { "style": "dash" }
 }

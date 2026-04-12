@@ -1,0 +1,26 @@
+name: Master Profile Benchmark Agent
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly on Sundays
+  workflow_dispatch: # On-demand
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Run Master Profile Audit
+        run: |
+          chmod +x .github/scripts/benchmark_audit.sh
+          ./.github/scripts/benchmark_audit.sh
+
+      - name: Commit Benchmark Report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Update Master Profile Benchmark Report"
+          file_pattern: 'BENCHMARK.md'
