@@ -1,10 +1,3 @@
-<!--
----
-title: Wilever Gómez | Product Developer y Fundador
-description: Perfil profesional de Wilever Gómez, Senior Product Developer experto en Flutter, Firebase, Supabase y fundador de FlowUI.
-keywords: Product Developer, Flutter, Supabase, Firebase, Compliance, FlowUI, Wilever Gómez, Desarrollador Argentina
-image: assets/lifestyle_card.png
----
 
 <script type="application/ld+json">
 {
@@ -12,7 +5,7 @@ image: assets/lifestyle_card.png
   "@type": "Person",
   "name": "Wilever Gómez",
   "url": "https://github.com/wileverg",
-  "image": "https://raw.githubusercontent.com/wileverg/wileverg/main/assets/lifestyle_card.png",
+  "image": "https://raw.githubusercontent.com/wileverg/wileverg/main/assets/banner.png",
   "jobTitle": "Product Developer | Senior Flutter & Supabase Architect",
   "alumniOf": "Universidad de Oriente",
   "knowsAbout": ["Product Development", "Flutter", "Supabase", "Firebase", "PostgreSQL", "Software Architecture", "Health Tech", "Compliance"],
@@ -23,16 +16,16 @@ image: assets/lifestyle_card.png
   ]
 }
 </script>
--->
+
 
 # Wilever Gómez — Product Developer y Fundador
 
 <p align="right">
-  <a href="README.md"><strong>🇺🇸 View in English</strong></a>
+  <a href="README.md"><strong>View in English</strong></a>
 </p>
 
 <p align="center">
-  <img src="assets/lifestyle_card.png" alt="Wilever Gómez - Product Developer" width="100%">
+  <img src="assets/banner.png" alt="Wilever Gómez - Product Developer" width="100%">
 </p>
 
 <p align="center">
@@ -51,18 +44,10 @@ image: assets/lifestyle_card.png
 - 🏥 **90% Digitalización**: Respuesta tecnológica a la pandemia (+700K miembros).
 - 🌐 **Construyendo en público** • Founder de FlowUI *(Próximamente)*
 
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
 ## 🛠 Tecnologías
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=flutter,firebase,supabase,nextjs,react,nodejs,express,cloudflare,git,github,vscode,powershell&theme=dark" alt="Mi Stack Tecnológico">
-</p>
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
 </p>
 
 ## 📂 Estructura del Repositorio
@@ -78,7 +63,7 @@ wileverg/
 ├── GEMINI.md            # Contexto de Estilo e IA
 ├── llms.txt             # Descubrimiento de IA y Resumen Opt.
 ├── README.md            # Punto de Entrada Moderno (EN)
-└── README-es.md         # Punto de Entrada Moderno (ES)
+├── README-es.md         # Punto de Entrada Moderno (ES)
 ```
 
 ## 🏛 Arquitectura Técnica
@@ -88,10 +73,6 @@ wileverg/
  Aplicación Flutter     Cloudflare CDN             Supabase / PostreSQL
  Web Next.js            Capa de Seguridad          Firebase / Firestore
 ```
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
 
 ### 💼 Trayectoria Profesional
 
@@ -107,90 +88,16 @@ wileverg/
 
 - **Ingeniero Electricista (Cum Laude)** | *Universidad de Oriente (VE)*
 
-### 🚀 Proyectos Destacados
-
-> [!NOTE] 
-> La mayoría de los proyectos empresariales en los que he sido arquitecto están bajo NDA (Acuerdos de confidencialidad). Hay demostraciones técnicas disponibles bajo petición.
-
-#### 🏥 Migración US Wellness App (Bajo NDA)
-Desarrollo y migración completa (frontend y backend) desde BuildFire a una arquitectura propia con Flutter + Supabase para el mercado estadounidense.
-- 📉 **Impacto:** Migración de **+50,000 usuarios activos** con **0 downtime** y **0% de abandono**.
-- ⚡ **Rendimiento:** Aumento del rendimiento de la app en un **60%** reduciendo los costos operativos en un **40%**.
-- 🛠️ **Tech:** Flutter, Supabase (PostgreSQL), Arquitectura Offline-first, Stripe, Firebase.
-
-#### 🌾 CRM-AGRO (Bajo NDA)
-Diseño y desarrollo de un CRM *offline-first* para ventas agrícolas en Argentina, permitiendo una operatividad continua en zonas rurales sin internet.
-
-#### 🏢 FlowUI (Próximamente)
-Plataforma de "Compliance as a Service" construida con Flutter + Firebase + Supabase.
-- 📉 **Objetivo:** Reducir los tiempos de auditoría corporativa hasta en un **40%**.
-- 🔗 [flowui.app](https://flowui.app)
-
-#### 💻 dev-ecosystem (Próximamente)
-Plantilla para que tu Mac, Windows o Linux tengan memoria.
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
-## 📊 Rendimiento e Impacto
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=wileverg&show_icons=true&theme=default&title_color=2f4f4f&icon_color=a7d08e&text_color=4b5320&bg_color=f5f5dc&border_color=a7d08e" alt="Estadísticas de GitHub" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wileverg&layout=compact&theme=default&title_color=2f4f4f&icon_color=a7d08e&text_color=4b5320&bg_color=f5f5dc&border_color=a7d08e" alt="Lenguajes Top" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=wileverg&theme=flat&column=7&margin-w=15&background=f5f5dc" alt="Trofeos de GitHub" />
-</p>
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
-## 📊 Estadísticas
-
-- 🇪🇸 **Ubicación:** Ubicado en Argentina
-- 💻 **Full-time:** Desarrollo de FlowUI
-- 🎯 **Enfoque:** Construir en público, proyectos paralelos, consistencia de identidad digital
-- 📚 **Aprendizaje continuo:** Siempre explorando nuevos frameworks y patrones
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
 ## 🎯 En Qué Estoy Trabajando
 
-- ⚙️ **Configuración del Entorno** — Maximizando Claude + Antigravity en Windows
-- 🏢 **Plataforma FlowUI** — Construyendo herramientas de compliance para empresas
-- 📢 **Construir en Público** — Documentando el viaje y aprendizajes en tiempo real
-- 🔬 **Proyectos Paralelos** — Experimentando con tecnologías emergentes
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
-## 📝 Últimos Artículos
-
-*Construyendo en público próximamente...*
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
-<p align="center">
-  <img src="assets/profile/lifestyle.png" alt="Wilever Gómez - Pensando en código" width="80%">
-  <br>
-  <i>"Pensando en código, escalando en la naturaleza."</i>
-</p>
+- ⚙️ **Optimización de IA en GitHub** — Mejorando el descubrimiento y desempeño de agentes de IA en repositorios.
+- 🦊 **Plantillas de Perfil en GitLab** — Creando plantillas de perfil público premium para GitLab.
+- 💻 **Plantillas de Web Dev** — Construyendo puntos de inicio modernos para desarrollo web en GitHub.
+- 🏢 **Gestión de LLC** — Gestionando entidades legales directamente desde el flujo del repositorio.
 
 ## 📝 Resumen para el Blog
 
 Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supabase, y el fundador de FlowUI. Mi misión es democratizar el compliance para startups construyendo herramientas multiplataforma de alto rendimiento. Fomento activamente la construcción en público (Build in Public) y el código abierto, y actualmente resido en Argentina.
-
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
 
 ## 🔗 Enlaces / Links
 
@@ -200,11 +107,8 @@ Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supaba
 - 🎨 [@wileverg](https://instagram.com/wileverg) (Instagram)
 - 💻 [GitHub Profile](https://github.com/wileverg)
 
-<p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
 ## 🍴 Replica esta plantilla (Fork)
+
 ¡Siéntete libre de clonar/forkear este repositorio para construir tu propio perfil de GitHub "Masterclass" listo para la IA!
 
 1. Crea un repositorio público cuyo nombre sea exactamente el mismo que tu usuario de GitHub.
@@ -214,11 +118,16 @@ Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supaba
 5. Modifica las URLs en los "badges" y tarjetas de estadísticas con tu usuario.
 
 <p align="center">
-  <img src="assets/organic_separator_optimized.png" width="100%">
-</p>
-
-<p align="center">
   <i>Hecho con ❤️ usando Claude Code y Antigravity IDE</i><br>
   <img src="https://komarev.com/ghpvc/?username=wileverg&label=Visitas%20al%20Perfil&color=a7d08e&style=flat" alt="Visitas al Perfil" /><br>
   <a href="BENCHMARK.md">📊 <strong>Puntaje de Salud de Identidad: 100/100</strong></a>
+</p>
+
+<p align="center">
+  <sub>
+    <b>Título:</b> Wilever Gómez | Product Developer y Fundador<br>
+    <b>Description:</b> Perfil profesional de Wilever Gómez, Senior Product Developer experto en Flutter, Firebase, Supabase y fundador de FlowUI.<br>
+    <b>Keywords:</b> Product Developer, Flutter, Supabase, Firebase, Compliance, FlowUI, Wilever Gómez, Desarrollador Argentina<br>
+     <b>Imagen:</b> assets/banner.png
+  </sub>
 </p>
