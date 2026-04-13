@@ -123,11 +123,10 @@ Feel free to fork this repository to build your own "Masterclass" AI-ready GitHu
   <a href="BENCHMARK.md">📊 <strong>Identity Health Score: 100/100</strong></a>
 </p>
 
-<p align="center">
-  <sub>
-    <b>Title:</b> Wilever Gómez | Product Developer & Founder<br>
-    <b>Description:</b> Personal profile of Wilever Gómez, Senior Product Developer expert in Flutter, Firebase, Supabase and founder of FlowUI.<br>
-    <b>Keywords:</b> Product Developer, Flutter, Supabase, Firebase, Compliance as a Service, FlowUI, Wilever Gómez, Developer Argentina<br>
-     <b>Image:</b> assets/banner.png
-  </sub>
-</p>
+<!--
+  AI-Optimization & SEO Metadata:
+  Title: Wilever Gómez | Product Developer & Founder
+  Description: Personal profile of Wilever Gómez, Senior Product Developer expert in Flutter, Firebase, Supabase and founder of FlowUI.
+  Keywords: Product Developer, Flutter, Supabase, Firebase, Compliance as a Service, FlowUI, Wilever Gómez, Developer Argentina
+  Image: assets/banner.png
+-->

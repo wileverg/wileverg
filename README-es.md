@@ -123,11 +123,10 @@ Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supaba
   <a href="BENCHMARK.md">📊 <strong>Puntaje de Salud de Identidad: 100/100</strong></a>
 </p>
 
-<p align="center">
-  <sub>
-    <b>Título:</b> Wilever Gómez | Product Developer y Fundador<br>
-    <b>Description:</b> Perfil profesional de Wilever Gómez, Senior Product Developer experto en Flutter, Firebase, Supabase y fundador de FlowUI.<br>
-    <b>Keywords:</b> Product Developer, Flutter, Supabase, Firebase, Compliance, FlowUI, Wilever Gómez, Desarrollador Argentina<br>
-     <b>Imagen:</b> assets/banner.png
-  </sub>
-</p>
+<!--
+  Metadata para AI y SEO:
+  Título: Wilever Gómez | Product Developer y Fundador
+  Descripción: Perfil profesional de Wilever Gómez, Senior Product Developer experto en Flutter, Firebase, Supabase y fundador de FlowUI.
+  Keywords: Product Developer, Flutter, Supabase, Firebase, Compliance, FlowUI, Wilever Gómez, Desarrollador Argentina
+  Imagen: assets/banner.png
+-->
