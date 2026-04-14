@@ -2,6 +2,21 @@
 
 This file contains high-priority rules for the Antigravity agent in this repository.
 
+## Agent Skills Context
+
+Before generating any profile content, **always read the relevant skill files** from `.agent/skills/`:
+
+| Skill File | When to Use |
+| :--- | :--- |
+| `github_profile_expert.md` | Choosing stats cards, layouts, dynamic widgets |
+| `tech_branding_expert.md` | Writing impact bullets (STAR/PAR), UVP formula |
+| `narrative_storytelling.md` | Shaping the bio, career arc, tone |
+| `ai_ready_seo.md` | JSON-LD block, `llms.txt` instructions, keywords |
+| `trust_and_ux.md` | Responsive images, A11y alt-text, security rules |
+| `markdown_expert.md` | GFM tables, Mermaid diagrams, Frontmatter |
+
+For adapting a profile for a **new user**, always start from `templates/profile_template.md` and consult `templates/README.md` to select the appropriate layout style.
+
 ## Markdown Guidelines
 - Always use blank lines between headers and content to ensure correct rendering.
 - Keep bullet points concise and avoid long paragraphs within lists.

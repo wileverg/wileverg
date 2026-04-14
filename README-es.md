@@ -112,7 +112,7 @@ Soy un Desarrollador Multiplataforma especializado en Flutter, Firebase y Supaba
 ¡Siéntete libre de clonar/forkear este repositorio para construir tu propio perfil de GitHub "Masterclass" listo para la IA!
 
 1. Crea un repositorio público cuyo nombre sea exactamente el mismo que tu usuario de GitHub.
-2. Explora el directorio `templates/` para encontrar plantillas base o copia este código.
+2. Forkea o copia este repo. Usa `templates/profile_template.md` como punto de partida para tu `README.md`.
 3. Actualiza los archivos `llms.txt`, `AGENTS.md` y `GEMINI.md` para moldear el contexto de tus propios agentes de IA.
 4. Cambia el bloque de `<script type="application/ld+json">` con tus datos para obtener un excelente SEO técnico e indexación.
 5. Modifica las URLs en los "badges" y tarjetas de estadísticas con tu usuario.

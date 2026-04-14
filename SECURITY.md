@@ -14,4 +14,6 @@ If you discover a security vulnerability within this repository, please **do not
 We aim to respond to all reports within **48 hours**.
 
 ## Security in Demos
-The files `templates/profile_demo.md` and `templates/branding_demo.md` contain placeholders (`YOUR__`). Never replace these with real secrets in files that will be pushed to a public remote.
+
+The file `templates/profile_template.md` contains placeholders (`YOUR__`). Never replace these with real secrets in files that will be pushed to a public remote.
+

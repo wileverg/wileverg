@@ -57,7 +57,9 @@ wileverg/
 ├── .github/             # Governance & Automation
 │   ├── scripts/         # Identity Benchmark Scripts
 │   └── workflows/       # Profile & Stats Workflows
-├── assets/              # Premium Visual Identity Assets
+├── templates/           # Generic Profile Templates & Community Index
+│   ├── profile_template.md  # AI-ready base template with placeholders
+│   └── README.md        # Curated community template index
 ├── AGENTS.md            # Role Definitions & Governance
 ├── BENCHMARK.md         # Identity Health Reports
 ├── GEMINI.md            # AI Style & Branding Context
@@ -112,7 +114,7 @@ I am a Multiplatform Developer specializing in Flutter, Firebase, and Supabase, 
 Feel free to fork this repository to build your own "Masterclass" AI-ready GitHub Profile!
 
 1. Create a public repository whose name strictly matches your GitHub username.
-2. Fork or copy the contents of this repo. Explore the `templates/` directory for structure ideas.
+2. Fork or copy this repo. Use `templates/profile_template.md` as your `README.md` starting point.
 3. Update `llms.txt`, `AGENTS.md`, and `GEMINI.md` to define your own AI context and narrative.
 4. Replace the Schema.org `<script type="application/ld+json">` metadata block with your own data for maximum SEO indexing.
 5. Customize the URLs in the Shields.io badges and stats cards.
