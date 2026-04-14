@@ -17,7 +17,6 @@
 }
 </script>
 
-
 # Wilever Gómez — Product Developer & Founder
 
 <p align="right">

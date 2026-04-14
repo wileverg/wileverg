@@ -45,7 +45,7 @@ else
 fi
 
 # 5. Check for Aesthetic Assets
-if [ -d "assets" ] && [ -f "assets/tech_nature_header.png" ] && [ -f "assets/organic_separator.png" ]; then
+if [ -d "assets" ] && [ -f "assets/banner.png" ]; then
     echo "✅ **Branding**: Nature-Tech visual assets present." >> $REPORT
     SCORE=$((SCORE + 15))
 else
