@@ -11,17 +11,18 @@ jobs:
     name: Update Profile Content
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      # 1. Update Blog Posts (Example using gautamkrishnar/blog-post-workflow)
+      # 1. Update Blog Posts — skips gracefully if no Medium feed is configured
       - name: Pull Latest Blog Posts
+        continue-on-error: true
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://medium.com/feed/@YOUR_USERNAME" # User must update this
+          feed_list: "https://medium.com/feed/@wileverg"
           max_post_count: 5
 
-      # 2. Update WakaTime Stats (Example using athul/waka-readme)
-      # REQUIRED SECRET: WAKATIME_API_KEY
+      # 2. Update WakaTime Stats
+      # REQUIRED SECRET: WAKATIME_API_KEY (set in repo Settings → Secrets)
       - name: Update WakaTime Stats
         uses: athul/waka-readme@master
         if: env.WAKATIME_API_KEY != ''
@@ -36,5 +37,5 @@ jobs:
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git add .
-          git diff-index --quiet HEAD || git commit -m "Auto-update Profile Content"
+          git diff-index --quiet HEAD || git commit -m "🤖 Auto-update Profile Content"
           git push
