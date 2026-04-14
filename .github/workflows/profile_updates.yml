@@ -13,15 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # 1. Update Blog Posts — skips gracefully if no Medium feed is configured
-      - name: Pull Latest Blog Posts
-        continue-on-error: true
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://medium.com/feed/@wileverg"
-          max_post_count: 5
-
-      # 2. Update WakaTime Stats
+      # 1. Update WakaTime Stats
       # REQUIRED SECRET: WAKATIME_API_KEY (set in repo Settings → Secrets)
       - name: Update WakaTime Stats
         uses: athul/waka-readme@master
